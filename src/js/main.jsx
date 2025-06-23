@@ -9,11 +9,13 @@ import "bootstrap"
 import '../styles/index.css'
 
 
+
 import TodoList from './components/TodoList';
 import CountryResearch from "./components/CountryResearch"
+import MovieFinder from './components/MovieFinder';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CountryResearch/>
+    <MovieFinder/>
   </React.StrictMode>,
 )
